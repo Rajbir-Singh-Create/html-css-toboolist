@@ -5,6 +5,39 @@
     box-sizing: border-box;
 }
 
-header {
-    color: red;
+/* COLOR PALETTE
+
+body: rgb(246 248 249)
+add task element: rgb(21 170 245)
+title sections: rgb(66 72 81)
+checkmark: rgb(105 210 189)
+crossmark: rgb(255 89 78)
+
+TAGS:
+editorial: rgb(10 169 237)
+Q1 goals: rgb(171 93 230)
+recruiting: rgb(43 198 171)
+mobile: rgb(255 155 1)
+website: rgb(236 74 157)
+sales: rgb(164 209 23)
+*/
+
+.banner {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.banner img{
+    margin: 5px 10px;
+}
+
+body {
+    background-color: rgb(59, 128, 162);
+}
+
+main {
+    background-color: white;
+
+    height: 400px;
 }
