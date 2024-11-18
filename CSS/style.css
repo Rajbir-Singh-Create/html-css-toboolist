@@ -27,14 +27,15 @@ body {
 }
 
 /* banner */
-.banner {
+header {
     width: 100%;
     background-color: white;
     margin-bottom: 50px;
 }
 
-.banner img{
+header img{
     margin: 5px 10px;
+    padding: 10px 10px;
 }
 
 /* nav menu */
