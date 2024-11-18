@@ -37,7 +37,7 @@ body {
     margin: 5px 10px;
 }
 
-/* menu section */
+/* nav menu */
 .menu div{
     display: inline-block;
 }
@@ -65,7 +65,6 @@ body {
     border: 1px solid black;
 }
 
-/* main */
 main {
     background-color: white;
     width: 980px;
@@ -73,16 +72,14 @@ main {
     border-radius: 10px;
 }
 
-/* new task menu */
-/* TO DO: far diventare questo stile in un "menu text" globale da applicare agli altri elementi */
-.new-task-menu {
+.menu-title {
     color: rgb(66 72 81);
     padding: 20px 50px;
 }
 
-.new-task-text {
+.task-text {
     display: inline;
-    font-size: 20px;
+    font-size: 22px;
     margin-left: 5px;
     font-weight: bold;
 }
@@ -91,7 +88,6 @@ main {
     margin-top: 10px;
 }
 
-/* TO DO: aggiungere stile al menu New Task */
 .todo-item-text {
     display: inline;
     margin-left: 8px;
@@ -121,9 +117,33 @@ main {
 }
 
 .todo-item-tag {
-    background-color: rgb(10 169 237);
+    background-color: grey;
     color: white;
     border-radius: 30px;
     padding: 5px 10px;
     font-size: 12px;
+}
+
+.todo-item-tag.editorial {
+    background-color: rgb(10 169 237);
+}
+
+.todo-item-tag.q1goals {
+    background-color: rgb(171 93 230);
+}
+
+.todo-item-tag.recruiting {
+    background-color: rgb(43 198 171);
+}
+
+.todo-item-tag.mobile {
+    background-color: rgb(255 155 1);
+}
+
+.todo-item-tag.website {
+    background-color: rgb(236 74 157);
+}
+
+.todo-item-tag.sales {
+    background-color: rgb(164 209 23);
 }
