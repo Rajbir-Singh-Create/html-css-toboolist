@@ -92,12 +92,6 @@ main {
     margin-top: 10px;
 }
 
-.todo-item-text {
-    display: inline;
-    margin-left: 8px;
-    margin-right: 3px;
-}
-
 .todo-item-icon {
     display: inline-block;
     border: 1px solid rgb(105 210 189);
@@ -107,8 +101,10 @@ main {
     height: 24px;
     text-align: center;
     line-height: 24px;
+    margin-right: 8px;
 }
 
+/* FIXME: apply only the color, apply class to elements in HTML */
 .todo-item-icon-cross {
     display: inline-block;
     border: 1px solid rgb(255 89 78);
@@ -118,6 +114,7 @@ main {
     height: 24px;
     text-align: center;
     line-height: 24px;
+    margin-right: 8px;
 }
 
 .todo-item-tag {
@@ -126,6 +123,7 @@ main {
     border-radius: 30px;
     padding: 5px 10px;
     font-size: 12px;
+    margin-left: 3px;
 }
 
 .todo-item-tag.editorial {
