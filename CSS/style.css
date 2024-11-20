@@ -34,7 +34,7 @@ header {
 }
 
 header img{
-    margin: 5px 10px;
+    /* margin: 5px 10px; */
     padding: 10px 10px;
 }
 
@@ -47,7 +47,8 @@ header img{
     background-color: white;
     padding: 20px 50px;
     border-radius: 10px;
-    width: 980px;
+    width: 100%;
+    max-width: 980px;
     margin: auto auto;
 }
 
@@ -57,6 +58,7 @@ header img{
     border-radius: 5px;
     border: 1px solid rgb(21 170 245);
     color: white;
+    font-size: 14px;
 }
 
 .add-section {
@@ -64,6 +66,7 @@ header img{
     padding: 5px 10px;
     border-radius: 5px;
     border: 1px solid black;
+    font-size: 14px;
 }
 
 main {
